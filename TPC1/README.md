@@ -10,8 +10,7 @@ Resultado do desenho de um comboio no 'Turtle' do website Blockly Games
 
 Funções criadas para o desenho do comboio no 'Turtle' do website Blockly Games
 
-<img width="134" height="608" alt="Captura de ecrã 2025-09-20, às 20 55 15" src="https://github.com/user-attachments/assets/63fbe64f-86f1-4f31-bf51-97e9508d5ecb" />
-<img width="132" height="608" alt="Captura de ecrã 2025-09-20, às 20 55 43" src="https://github.com/user-attachments/assets/ad326286-08d5-4281-a09a-9bb8a3ada004" />
-<img width="132" height="346" alt="Captura de ecrã 2025-09-20, às 20 56 21" src="https://github.com/user-attachments/assets/863a4a40-3496-4fda-bbc5-1c93aa576df8" />
+<img width="623" height="574" alt="Captura de ecrã 2025-09-20, às 22 53 38" src="https://github.com/user-attachments/assets/18f57c16-3963-4851-8593-218010be32bc" />
 
 Código que gera o desenho do comboio no 'Turtle' do website Blockly Games
+
