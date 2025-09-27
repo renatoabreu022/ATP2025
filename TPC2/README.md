@@ -8,7 +8,7 @@ Foi proposto escrever um programa em python que simulava o 'Jogo dos fósforos'.
 
 **Nível 1:** Sendo o computador a jogar em primeiro lugar, este ganha sempre;
 
-**Nível 2:** Sendo nós a jogar em segundo lugar, o computador ganha caso haja algum erro de cálculo da nossa parte.
+**Nível 2:** Sendo nós a jogar em segundo lugar, o computador só ganha caso haja algum erro de cálculo da nossa parte.
 
 Nesta resolução, juntei os dois níveis num programa só e dei a opção de voltar a jogar ou terminar o jogo:
 
