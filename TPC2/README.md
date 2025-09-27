@@ -1,5 +1,9 @@
 **Resolução do TPC 2 proposto no dia 22/09/2025**
 
+![foto%20uni_resized](https://github.com/user-attachments/assets/8d5bd67c-d7d0-468e-9623-002e6451df77)
+
+*Renato André Matos Abreu (a112333)*
+
 Foi proposto escrever um programa em python que simulava o 'Jogo dos fósforos'. Neste jogo há, de início, 21 fósforos e cada jogador deve escolher tirar à vez entre 1 e 4 fósforos, o jogador que tiver que retirar o último fósforo perde. O TPC consisitia em recriar este jogo, jogando contra o computador, sendo o jogo dividido em 2 níveis:
 
 **Nível 1:** Sendo o computador a jogar em primeiro lugar, este ganha sempre;
