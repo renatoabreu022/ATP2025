@@ -65,11 +65,11 @@ def fosforo():
         break
 
 fosforo()
-escolha = input("Quer jogar de novo? ")  
+escolha = input("Queres jogar de novo? ")  
 while escolha == "Sim" or escolha == "sim":
   fosforo()
-  escolha = input("Quer jogar de novo? ")
+  escolha = input("Queres jogar de novo? ")
 while escolha != "Sim" and escolha != "sim" and escolha != "Não" and escolha != "não":
   print("Inválido")
-  escolha = input("Quer jogar de novo? ")
+  escolha = input("Queres jogar de novo? ")
 ```
