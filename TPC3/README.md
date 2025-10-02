@@ -34,9 +34,9 @@ while c == True:
         {l}''')
     elif escolha == 2:
         l = []
-        tamanho = int(input('Escolha o tamanho da sua lista: '))
+        tamanho = int(input("Escolha o tamanho da sua lista: "))
         for i in range(tamanho):
-            elem = int(input('Escolha que número quer colocar: '))
+            elem = int(input("Escolha que número quer colocar: "))
             l.append(elem)
         print (f'''A sua lista é a seguinte:
         {l}''')
