@@ -5,6 +5,7 @@
 *Renato André Matos Abreu (a112333)*
 
 Foi pedido que se criasse uma aplicação para gerir turmas através de um menu de operações, sendo possível criar turmas, adicionar alunos, listar a turma, consultar alunos através do seu id, guardar cada turma no ficheiro, carregar a turma do ficheiro e sair da aplicação.
+Junto a isto, encontram-se dois ficheiros, um com o código da aplicação e outro com uma turma de 5 alunos criada com a mesma.
 
 ```python
 def criarTurma():
