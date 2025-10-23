@@ -7,18 +7,23 @@
 Foi pedido que se criasse uma aplicação para gerir turmas através de um menu de operações, sendo possível criar turmas, adicionar alunos, listar a turma, consultar alunos através do seu id, guardar cada turma no ficheiro, carregar a turma do ficheiro e sair da aplicação.
 
 ```python
-f = open("./turmas123.csv", "a")
-
 def criarTurma():
     print("Turma criada")
     return []
 
 def inserirAluno(turma):
     nome = input("Insira o nome do aluno: ")
-    id = int(input("Insira o ID do aluno: "))
+    existe = True
+    while existe == True:
+        existe = False
+        id = int(input("Insira o ID do aluno: "))
+        for a in turma:
+            if a[1] == id:
+                print("Esse ID já está a ser utilizado")
+                existe = True
     tpc = int(input("Insira a nota do TPC do aluno: "))
     proj = int(input("Insira a nota do projeto do aluno: "))
-    teste = int(input("Insira a nota do teste do aluno: ")d)
+    teste = int(input("Insira a nota do teste do aluno: "))
     aluno = (nome, id, [tpc, proj, teste])
     turma.append(aluno)
     print("O aluno foi adicionado com sucesso")
@@ -34,35 +39,20 @@ def consultar(id,turma):
             Nome: {a[0]}, Nota do TPC: {a[2][0]}, Nota do Projeto: {a[2][1]}, Nota do Teste: {a[2][2]}''')
 
 def guardarTurma(turma,nometurma):
-    f = open("./turmas123.csv", "a")
-    f.write(f"{nometurma}\n")
+    f = open(f"./{nometurma}.txt", "a")
     for t in turma:
         f.write(f"{t[0]};{t[1]};{t[2][0]};{t[2][1]};{t[2][2]}\n")
-    f.write("\n")
     print("Turma guardada com sucesso")
 
 def carregarTurma(nometurma):
-    f = open("./turmas123.csv", "r")
-    linha = f.readline()
-    while linha.strip() != nometurma.strip():
-        linha = f.readline()
-    linha = f.readline()
-    while linha.strip() != "":
+    f = open(f"./{nometurma}.txt", "r")
+    for linha in f:
         print(linha, end = '')
-        linha = f.readline()
 
 def menu():
     j = True
 
     while j == True:
-        f = open("./turmas123.csv")
-        verif = f.readline()
-        f.close()
-        if verif.strip() != "Nome;ID;Nota do TPC;Nota do Projeto;Nota do Teste\n".strip():
-            f = open("./turmas123.csv", "a")
-            f.write("Nome;ID;Nota do TPC;Nota do Projeto;Nota do Teste\n")
-            f.close()
-
         esc = int(input('''Menu:
             (1) Criar uma turma
             (2) Adicionar um aluno na turma
