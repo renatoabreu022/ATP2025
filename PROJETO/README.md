@@ -6,7 +6,7 @@ Projeto realizado no âmbito da Unidade Curricular de Algoritmos e Técnicas de 
 
 Requisitos:
 - Python 3.x
-- Bibliotecas: numpy, matplotlib, PySimpleGUI, time, random, json, importlib
+- Bibliotecas: numpy, matplotlib, FreeSimpleGUI, time, random, json, importlib
 
 Para executar a simulação:
 1. Garantir que todos os ficheiros do projeto estão na mesma pasta
