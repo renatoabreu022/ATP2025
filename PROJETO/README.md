@@ -124,7 +124,7 @@ Estas modificações permitem verificar como cada variável altera o funcionamen
 
     Variáveis representadas:
     - Eixo horizontal (x) — *tempo da simulação em minutos*
-    - Eixo vertical (y) — *percentagem média de médicos ocupados (%)*
+    - Eixo vertical (y) — *percentagem de médicos ocupados (%)*
 
     Este gráfico apresenta a evolução da ocupação média dos médicos ao longo do tempo de simulação.
     O objetivo é analisar a utilização dos recursos humanos da clínica, permitindo identificar períodos de subutilização ou sobrecarga.
